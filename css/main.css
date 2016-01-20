@@ -1,9 +1,8 @@
 body {
 		background-image: url("../img/background.jpg");
 		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 99%;
-		background-attachment: fixed;
+		background-position: right center;
+		background-size: cover;
 		background-color: #727272;
 		color: teal;
 		font-family: arial; 

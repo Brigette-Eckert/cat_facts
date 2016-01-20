@@ -1,13 +1,23 @@
 body {
-		background: black;
+		background-image: url("../img/background.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 99%;
+		background-attachment: fixed;
+		background-color: #727272;
 		color: teal;
+		font-family: arial; 
 }
 
+h1 {
+	font-weight: bold;
+}
 .main {
 		margin: auto;
 }
 
 #fact-btn {
+		margin: 30px auto;
 		height: 5em;
 		background: teal;
 		color: white;
@@ -16,5 +26,11 @@ body {
 .data {
 		margin: 1em 0;
 		font-weight: bold;
-		font-size: 1.75em;
+		font-size: 25px;
+		font-style: italic;
+}
+
+#fact-display {
+	width: 650px;
+
 }
